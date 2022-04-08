@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.banner-slider{
+    background-image: url(../images/bg-2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100px;
+}
+.carousel-item{
+    min-height: 75vh;
+    background-image: url(../images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 380px;
+}
+.carousel-indicators button{
+    height: 8px !important;
+    width: 10px !important;
+    border-radius: 45% !important;
+    background-color: #8b8b85 !important;
+}
+.carousel-indicators button.active{
+    width: 25px !important;
+    background-color: #d8ba57 !important;
+}
+.slider-elements{
+    padding: 0px 30px;
+}
+.slider-heading{
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.slider-desc{
+    font-size: 16px;
+    text-align: justify;
+    color: gray;
+    margin-bottom: 20px;
+}
+.buy-now-btn{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+}
