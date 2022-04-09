@@ -6,13 +6,19 @@
 body{
     font-family: sans-serif;
 }
+
+/*========banner section start====*/
+.navbar-brand img{
+    width: 140px;
+}
 .banner-slider{
     background-image: url(../images/bg-2.png);
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: auto 100px;
+    margin-bottom: 80px;
 }
-.carousel-item{
+.carousel-inner{
     min-height: 75vh;
     background-image: url(../images/bg-1.png);
     background-position: center;
@@ -27,7 +33,7 @@ body{
 }
 .carousel-indicators button.active{
     width: 25px !important;
-    background-color: #d8ba57 !important;
+    background-color: #d8b33a !important;
 }
 .slider-elements{
     padding: 0px 30px;
@@ -44,9 +50,105 @@ body{
     margin-bottom: 20px;
 }
 .buy-now-btn{
-    padding: 7px 15px;
+    padding: 9px 18px;
     border: none;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color: #000;
     color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color 0.5s linear;
 }
+.buy-now-btn:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+/*========banner section start========*/
+.product-cards{
+    margin-bottom: 100px;
+}
+.section-header-elements{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-header-elements .section-header{
+    font-size: 26px;
+    font-weight: bold;
+}
+.section-header-elements span{
+    color: #d8b33a;
+    font-weight: 600;
+}
+.card{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #e2dada;
+    padding: 40px 30px;
+}
+.card img{
+    max-height: 220px;
+    width: auto;
+    margin-bottom: 20px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-title{
+    color: #000;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 16px;
+    color: #8b8686;
+    margin-bottom: 30px;
+}
+.card .price{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+/*========item cards section end====*/
+
+
+/*========categories section start====*/
+.section-heading{
+    position: relative;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.section-heading::before{
+    content: '';
+    height: 5px;
+    width: 130px;
+    background-color: #d8b33a;
+    position: absolute;
+    bottom: -10px;
+    border-radius: 8px;
+}
+.gap{
+    height: 150px;
+}
+.categorie-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 25px #e2dada;
+    padding: 60px 40px;
+    margin-bottom: 30px;
+    border-radius: 10px 0px 30px 0px;
+}
+.pale-order img{
+    max-width: 600px;
+    height: auto;
+}
+
